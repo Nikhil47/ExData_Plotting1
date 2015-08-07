@@ -1,5 +1,6 @@
 # Function to generate the plot2.png in the assignment
 # See comments in the downloadCache.R file to fully understand the working of this function
+# To execute run plot2(cache)
 
 plot2 <- function(cache){
     

@@ -2,8 +2,8 @@
 # only once. 
 # This script calls the downloadCache function once to initialize the 'cache' list variable in the
 # Global Environment.
-# WARNING: Do not run this script twice. It will cause the cached data frame to be set to NULL again
-# causing the call to subsequent plot[1-4] function calls to re-download the data files.
+# WARNING: Do not run this script more than once. It will cause the cached data frame to be set to NULL
+# again causing the call to subsequent plot[1-4] function calls to re-download the data files.
 
 downloadCache <- function(x){
     
