@@ -1,4 +1,4 @@
-downloadCache <- function(y = data.frame()){
+downloadCache <- function(x){
     
     setCache <- function(y){
         x <<- y
@@ -30,5 +30,7 @@ downloadCache <- function(y = data.frame()){
         dat
     }
     
-    list(setCache = setCache, getCache = getCache)
+    list(setCache = setCache, getCache = getCache, download = download)
 }
+
+cache <- downloadCache(NULL)

@@ -1,5 +1,5 @@
-plot1 <- function(){
-    cache <- downloadCache()
+plot1 <- function(cache){
+    
     dat <- cache$getCache()
     if(is.null(dat)){
         dat <- cache$download()
