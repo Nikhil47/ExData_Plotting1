@@ -1,3 +1,6 @@
+# Function to generate the plot3.png in the assignment
+# See comments in the downloadCache.R file to fully understand the working of this function
+
 plot3 <- function(cache){
     
     dat <- cache$getCache()
